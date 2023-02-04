@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, crimson, black);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+h1{
+    margin-top: 110px;
+}
+
+main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#app{
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+
+#app:hover{
+    scale: 1.1;
+}
+
+#time{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: black;
+    cursor: default;
+}
+
+#taskName{
+    margin-top: 10px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#taskData{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#taskData label{
+    font-size: 20px;
+}
+
+#itTask{
+    padding: 10px;
+    padding-left: 5px;
+    font-size: 18px;
+    outline: none;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input[type="submit"]{
+    background: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 300ms;
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    background: lightblue;
+}
+
+#tasks{
+    margin-top: 10px;
+}
+
+.completed button{
+    background: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.done{
+    background: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    cursor: default;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.start-button{
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.start-button:hover{
+    background: lightblue;
+}
+
+.inProgress{
+    background: dodgerblue;
+    color: white;
+}
+
+hr{
+    margin-top: 10px;
+}
